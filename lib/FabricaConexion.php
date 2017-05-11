@@ -1,5 +1,5 @@
 <?php
-    class Conexion {
+    class FabricaConexion {
         private $host;
         private $user;
         private $pass;
@@ -12,7 +12,7 @@
             $this->dbname = $d;
         }
 
-        public function CrearConexion($dbname) {
+        public function CrearConexion() {
             return new mysqli(
                 $this->host,
                 $this->user,

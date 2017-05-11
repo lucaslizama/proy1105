@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <title></title>
         <meta charset="UTF-8">
@@ -7,8 +7,6 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <?php
-            
-        ?>
+        <a href="agregar.php">Agregar</a>
     </body>
 </html>
